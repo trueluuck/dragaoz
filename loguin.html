@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>Dragão Z - Fight</title>
+</head>
+    <body>
+        <main>
+            <header>
+                <nav class="nav-bar">
+                    <div class="logo">
+                            <h1>PARANÁ360</h1>
+                    </div>
+                    <div class="nav-list">
+                        <ul>
+                            <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                            <li class="nav-item"><a href="jogar.html" class="nav-link">Jogar</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Recordes</a></li>
+                        </ul>
+                    </div>
+                    <div class="login-button">
+                        <a href="loguin.html"><button type="submit" formaction="loguin.html">Entrar</button></a>
+                    <div class="mobile-menu-icon">
+                        <button onclick="menuShow()" class="icon"><i class="fa-solid fa-bars"></i></button>
+                    </div>
+                </nav>
+                <div class="mobile-menu">
+                    <ul>
+                        <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                        <li class="nav-item"><a href="jogar.html" class="nav-link">Jogar</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Recordes</a></li>
+                    </ul>
+                    <div class="login-button">
+                        <button type="button" href="loguin.html">Entrar</button>
+                    </div>
+                </div>
+            </header>
+            <div id="container">
+                <form id="login_form">
+                    <div id="login_form_all">
+                    <div id="form_header">
+                        <h1>Login</h1>
+                        <i onclick="trocaIcone()" id="mode_icon" class="fa-solid fa-moon"></i>
+                    </div>
+                    <div id="social_media">
+                       <a href="#"> <i class="fa-brands fa-facebook fa-2xl"></i></a>
+                       <a href="#"><i class="fa-brands fa-google fa-2xl"></i></a>
+                       <a href="#"><i class="fa-brands fa-github fa-2xl"></i></a>
+                    </div>
+                    <div id="inputs">
+                        <div id="input-box">
+                            <label for="name">
+                                Usuario:
+                                <div id="input-field">
+                                    <i class="fa-solid fa-user-ninja"></i>
+                                    <input type="text" id="name" name="name">
+                                </div>
+                            </label>
+                        </div>
+                        <div id="input-box">
+                            <label for="email">
+                                E-mail:
+                                <div id="input-field">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <input type="text" id="email" name="email">
+                                </div>
+                            </label>
+                        </div>
+                        <div id="input-box">
+                            <label for="senha">
+                                Senha:
+                                <div id="input-field">
+                                    <i class="fa-solid fa-lock"></i>
+                                    <input type="password" id="senha" name="email">
+                                </div>
+                            </label>
+                        </div>
+                        <div id="forgot_password">
+                            <a href="#">Perdeu sua senha ?!</a>
+                        </div>
+                    </div>
+                    <button type="submit" id="login_buton">
+                           Login 
+                    </button> 
+                </div>
+                </form>
+            </div>
+        </main>    
+        <footer>
+            <div id="footer_content">
+                <div id="footer_contacts">
+                    <h1>DRAGÃO Z</h1>
+                    <p>Break ur friends RECORD.</p>
+                    <div id="footer_social_media">
+                        <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="footer-link" id="linkedin">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="footer-link" id="whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <ul class="footer-list">
+                    <li>
+                        <h3>NOTICIAS</h3>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">NOVIDADES</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">TENDENCIAS</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">TODAS</a>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li>
+                        <h3>NEW PLAYER</h3>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">COMO COMEÇAR</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">PERSONAGENS</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">CADASTRE-SE</a>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li>
+                        <h3>TRAGA SUA GUILD</h3>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">CONVIDE</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">GUILD PACK</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">CASTELO DE WAR</a>
+                    </li>
+                </ul>
+                <div id="footer_subscribe">
+                    <h3>SUBSCRIBE</h3>
+                    <p>
+                        Enter your e-mail to get notified about our news solution.
+                    </p>
+                    <div id="input_group">
+                        <input type="email" id="email">
+                        <button>
+                            <i class="fa-regular fa-envelope"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="footer_copyright">
+                &#169
+                2023 all rights reserved:
+                Sete Camadas Digital - 26.306.303.0001/20
+            </div>
+        </footer>        </body>
+</html>
+</body>
+</html>
